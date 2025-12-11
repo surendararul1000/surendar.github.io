@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GenAI Chatbot – ADK Agent Project</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="logo">Surendar.ai.in</a>
+      <ul class="nav-menu">
+        <li><a href="../index.html#home">Home</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" style="height:auto;padding:140px 0 60px;">
+    <div class="hero-content">
+      <h1>GenAI Chatbot with Google ADK</h1>
+      <p class="hero-subtitle">
+        Hands-on Kaggle notebook that builds an AI agent using Google’s Agent Development Kit (ADK)
+        and Gemini models, including tool use via Google Search.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2>Project Overview</h2>
+      <p>
+        This project follows Google’s 5‑day Kaggle Agents course to create a simple AI agent powered by Gemini.
+        The notebook shows how to configure the Gemini API key, import ADK components, define an agent with the
+        <code>google_search</code> tool, and run it with an in‑memory runner to answer questions that require
+        up‑to‑date information.[web:78]
+      </p>
+      <p>
+        The agent is built in Python using the Google ADK library and runs inside Kaggle Notebooks, with an optional
+        ADK web UI for inspecting traces, sessions, and agent behavior.[web:68][web:78]
+      </p>
+
+      <h3>Main steps implemented</h3>
+      <ul>
+        <li>Configure Gemini API key via Kaggle Secrets and environment variables.</li>
+        <li>Import ADK components such as <code>Agent</code>, <code>InMemoryRunner</code>, and <code>google_search</code> tool.[web:78]</li>
+        <li>Define a root agent that uses Gemini to reason and call Google Search when it needs current information.[web:78]</li>
+        <li>Run the agent with <code>run_debug()</code> to answer questions and inspect the reasoning trace.</li>
+        <li>Optionally start the ADK web server and access the dev UI through a proxied URL inside Kaggle.</li>
+      </ul>
+
+      <h3>Source & License</h3>
+      <p>
+        The original notebook and ADK examples are provided by Google and Kaggle under the Apache 2.0 license.
+        For full code and detailed instructions, see:
+      </p>
+      <ul>
+        <li><a href="https://google.github.io/adk-docs/" target="_blank">Agent Development Kit (ADK) docs</a>[web:78]</li>
+        <li><a href="https://ai.google.dev/gemini-api/docs" target="_blank">Gemini API documentation</a>[web:78]</li>
+        <li><a href="https://www.kaggle.com" target="_blank">Kaggle Notebooks platform</a>[web:67]</li>
+      </ul>
+      <p style="font-size:0.9rem;color:#555;">
+        This page summarizes the project for educational purposes and does not reproduce the original notebook
+        text or code in full, in order to respect copyright and licensing.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Surendar | GenAI Chatbot Project</p>
+  </footer>
+</body>
+</html>
